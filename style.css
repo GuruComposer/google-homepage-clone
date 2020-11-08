@@ -1,0 +1,76 @@
+.container {
+
+}
+
+.center {
+  margin: 0px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.horizontal-center {
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.horizontal-center.title {
+  font-size: 50px;
+}
+
+
+.link {
+  text-align: right;
+  float: right;
+  padding: 5px;
+}
+
+.row.link {
+  text-align: right;
+  float: right;
+  padding: 0px;
+  margin-right: 10px;
+  margin-top: -20px;
+}
+
+
+form > input[type=text] {
+  border-radius: 25px;
+  width: 500px;
+  margin: 50px;
+}
+
+form > input[type=submit] {
+  object-position: bottom;
+}
+
+.row > div {
+    padding: 2px;
+}
+
+.advanced_search_input {
+  width: 100%;
+}
+
+.row.advanced_row {
+  margin-left: 1%;
+  margin: 25px;
+}
+
+.horizontal-center.button {
+  color: white;
+  background-color: blue;
+  margin-top: 50px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
